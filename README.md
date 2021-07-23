@@ -16,5 +16,22 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## Flutter demo
+
 ![](2021-07-23-14-07-22.png)
 ![](2021-07-23-14-08-10.png)
+
+## Topics
+
+### 1. สร้าง UI 2 หน้า (Menu, Order)
+
+- AppBar, Body
+
+### 2. ใช้ package http จัดการกับ API
+
+- สร้าง class Menu, Order https://javiercbk.github.io/json_to_dart/
+- http 0.13.3 https://pub.dev/packages/http
+- Get & Post จาก  Mock API => Postman collection ของตัว mock API:  https://www.postman.com/collections/b4403abb2e4dfaf6e8e9
+
+### 3. QR Code scanner
+- สร้าง QR Code button
+- flutter_barcode_scanner 2.0.0 https://pub.dev/packages/flutter_barcode_scanner
